@@ -22,6 +22,7 @@ function populateTotal() {
 
   let totalEl = document.querySelector("#total");
   totalEl.textContent = total;
+  return
 }
 
 function populateTable() {
@@ -38,6 +39,7 @@ function populateTable() {
 
     tbody.appendChild(tr);
   });
+  return
 }
 
 function populateChart() {
